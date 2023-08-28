@@ -24,16 +24,32 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 0px 32px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
 .section {
-    padding: 0 360px;
+    /* default section padding */
+    padding: 0 400px;
+}
+
+.section.two,
+.section.three {
+    padding: 0 500px;
 }
 
 .header {
+    background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 80px;
     gap: 16px;
+    margin-bottom: 96px;
 }
 
 .header h3 {
@@ -50,6 +66,62 @@ a {
 }
 
 .section.one {
+    height: 560px;
     background-color: #1F2937;
     color: white;
+}
+
+/* main contains panel & image */
+.hero-main {
+    /* placeholder color */
+    height: 250px;
+    display: flex;
+}
+
+/* panel contains text, subtext & button */
+.hero-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-panel > * {
+    flex: auto;
+}
+
+.hero-text {
+    width: 500px;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-subtext {
+    width: 450px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.hero-button {
+    color: white;
+    align-self: flex-start;
+}
+
+.hero-button:hover {
+    /* placeholder */
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section.two {
+    height: 560px;
+    background-color: white;
 }
