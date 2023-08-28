@@ -1,0 +1,11 @@
+/* font weights available:
+-> thin 100
+-> light 300
+-> medium 500
+-> bold 700
+-> black 900            */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
