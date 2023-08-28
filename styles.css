@@ -1,9 +1,11 @@
 /* font weights available:
 -> thin 100
 -> light 300
+-> regular 400
 -> medium 500
 -> bold 700
 -> black 900            */
+
 
 /* remove white space on top of page and reset all css elements */
 
@@ -100,7 +102,7 @@ button {
     width: 450px;
     color: #E5E7EB;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .hero-button {
@@ -122,6 +124,57 @@ button {
 }
 
 .section.two {
-    height: 560px;
+    height: 500px;
     background-color: white;
 }
+
+.section-two-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-two-title {
+    color: #1F2937;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.section-two-images {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.image-container {
+    flex-basis: 0;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.image-placeholder {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    background-color: white;
+    height: 160px;
+    width: 160px;
+}
+
+.image-subtext {
+    padding: 8px;
+    width: 175px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* fix second page and section one image */
