@@ -1,6 +1,6 @@
-# Second Project for the TOP Curriculum
+# Odin Landing Page
 
-[Live preview](https://dostendite.github.io/odin-landing-page/)
+👾 [**Live preview**](https://dostendite.github.io/odin-landing-page//)
 
 I will eventually redesign
 the page, add images & style it
